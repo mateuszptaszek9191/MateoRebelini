@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Titan+One&display=swap');
+
+@import './contact';
+@import './components';
+@import './aboutus';
+@import './portfolio';
+@import './variables.scss';
+@import './fonts.scss';
+@import './skate.scss';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.shadow-bg {
+	background-color: rgba(197, 71, 71, 0.9);
+}
+
+.footer-top {
+	height: 50px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	p {
+		font-size: 12px;
+	}
+}
+
+// nav start
+.navbar {
+	z-index: 500;
+}
+nav {
+	text-transform: uppercase;
+}
+.navbar-brand {
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.nav-link {
+	font-family: 'Rubik Wet Paint', cursive;
+}
+
+.fa-bars {
+	padding: 10px;
+}
+
+// nav end
+
+.header-footer {
+	height: 20px;
+}
+
+.artist-photo {
+	margin-right: 90px;
+	margin-left: 90px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+.zoom-box {
+	position: relative;
+	object-fit: cover;
+	object-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 100%;
+	}
+}
+.tittle-image-text {
+	color: white;
+	text-align: center;
+	font-family: 'Koulen', cursive;
+	font-weight: 800;
+	font-size: 55px;
+}
+.tittle-image {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hero-shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-buy:hover {
+	background-color: white;
+	color: blue;
+	border: none;
+}
+
+.ello {
+	height: 1900px;
+	width: 100%;
+	background-color: rgb(24, 27, 27);
+}
+.elle {
+	height: 1900px;
+	width: 100%;
+	background-color: rgb(24, 27, 27);
+}
+
+// KONTAKT HTML START
+
+// KONTAKT HTML END
+
+// O NAS START
+
+.card-border {
+	border: none;
+}
+// .tittle-text-under{
+//     display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+.underline-text {
+	background-color: #2983cc;
+	height: 10px;
+	max-width: 200px;
+	
+	margin: 0 auto;
+}
+// O NAS END
+
+.tittle-image-text-aboutus {
+	margin: 0px 200px;
+	text-align: center;
+	color: white;
+}
+
+
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 32px;
+	}
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+	// .aboutus-hover {
+	// 	// transition: color 0.3s;
+	// }
+}
+
+.featured-text {
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+// Footer//////
+.footer {
+	color: rgb(255, 255, 255);
+	background-color: rgb(43, 39, 39);
+	.wrapper {
+		padding: 6em 2em 2em;
+	}
+	&__box {
+		font-size: 1rem;
+	}
+	&__box-desktop {
+		display: none;
+	}
+	&__boxtitle {
+		margin-bottom: 1em;
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+	&__box-social {
+		padding: 2em 0 1em;
+	}
+	&__box-link {
+		color: white;
+		padding: 0 0.3em;
+		font-size: 3.6rem;
+		text-decoration: none;
+		transition: color 0.3s;
+
+		&:first-child {
+			padding-left: 0;
+		}
+		&:hover {
+			color: grey;
+		}
+	}
+	&__bottom-text {
+		padding: 2em;
+		text-align: center;
+	}
+}
+
+// newsletter
+.newsletter input {
+	border-bottom: 2px solid #1a1a1a;
+  }
+  .newsletter input::-moz-placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #1a1a1a !important;
+  }
+  .newsletter input::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #1a1a1a !important;
+  }
+  .newsletter input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #1a1a1a !important;
+  }
+  .newsletter input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #1a1a1a !important;
+  }
+  .newsletter__arrow {
+	position: absolute;
+  }
+  .newsletter__arrow--left {
+	top: 9%;
+	left: 0px;
+	max-width: 18vw;
+  }
+  .newsletter__arrow--right-big {
+	top: 10%;
+	right: 0px;
+	max-width: 52vw;
+  }
+  .newsletter__arrow--right-small {
+	top: 63%;
+	right: 10%;
+	max-width: 30vw;
+  }
+
+@media (min-width: 320px) and (max-width: 375px) {
+	.tittle-image {
+		h3 {
+			font-size: 12px;
+		}
+	}
+	.footer-code-top {
+		p {
+			font-size: 8px;
+			text-align: center;
+		}
+	}
+	.contact-department-box-buy {
+		margin: 0;
+	}
+	.contact-department-box-technical {
+		margin: 0;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+	.tittle-image {
+		h3 {
+			font-size: 12px;
+		}
+	}
+	.footer-code-top {
+		p {
+			font-size: 10px;
+			text-align: center;
+		}
+	}
+	.contact-department-box-buy {
+		margin: 0;
+	}
+	.contact-department-box-technical {
+		margin: 0;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+	.tittle-image {
+		h3 {
+			font-size: 20px;
+		}
+	}
+	.footer-code-top {
+		p {
+			text-align: center;
+		}
+	}
+	.contact-department-box-buy {
+		margin: 0;
+	}
+	.contact-department-box-technical {
+		margin: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.tittle-image {
+		h3 {
+			font-size: 25px;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.tittle-image {
+		h3 {
+			font-size: 30px;
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.tittle-image {
+		h3 {
+			font-size: 40px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.footer {
+		&__boxes {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__box-desktop {
+			display: block;
+
+			.footer__box-title{
+				font-weight: 900;
+				margin-left: 2rem;
+			}
+		}
+
+		&__box {
+			margin: 0 2em;
+			width: 25%;
+		}
+		&__box-title {
+			font-size: 2rem;
+			
+		}
+		&__box-list {
+			list-style: none;
+		}
+		&__box-list-item {
+			margin-bottom: 1em;
+			a{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}

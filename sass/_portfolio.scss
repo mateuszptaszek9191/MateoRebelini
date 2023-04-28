@@ -1,0 +1,14 @@
+.card-border{
+    transition: .3s;
+}
+
+.card-border:hover{
+    transform: scale(1.1);
+}
+
+
+
+.galerry-show img:hover{
+    filter: grayscale(100%);
+}
+

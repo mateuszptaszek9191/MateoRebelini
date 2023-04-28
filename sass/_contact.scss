@@ -1,0 +1,166 @@
+// Contact Boxes
+
+// .contact-boxes {
+//     // height: 960px;
+//   }
+  .form-box-inside {
+    margin-top: 78px;
+    margin-bottom: 146px;
+  }
+  
+  .form-boxes {
+    // height: 960px;
+    background-color: #000000;
+  }
+  .contact-form {
+    .form-control-input:focus {
+      background-color: #e4e4e4 !important;
+    }
+  }
+  .form-control-input {
+    font-size: 18px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    border-bottom: none;
+    margin-bottom: 20px;
+    background: #e4e4e4 0% 0% no-repeat padding-box;
+    margin-bottom: 16px;
+  }
+  .text-md-start{
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+  }
+  .text-md-start-form{
+    color: white;
+  }
+  .date-contact {
+    margin-bottom: 10px;
+    font-family: 'Koulen', cursive;
+    color: white;
+
+  }
+  .data-map {
+    margin-bottom: 21px;
+  }
+  .form-contact-h {
+    margin-bottom: 30px;
+  }
+  .form-question-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Koulen', cursive;
+    color: white;
+
+  }
+  
+  .form-box-inside {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 660px;
+    max-width: 100%;
+  }
+  
+  .checkbox-l {
+    color: #808080;
+  }
+  .checkbox-d {
+    margin-bottom: 6px;
+  }
+  .form-btn-box {
+    margin-top: 17px;
+  }
+  .contact-inside {
+    width: 574px;
+    max-width: 100%;
+    margin: 0 20px 0 auto;
+    h1 {
+      font-weight: 500;
+      margin-bottom: 26px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  .contact-inside-lorem {
+    width: 456px;
+    max-width: 100%;
+  }
+  
+  // section 2
+  
+  .contact-map-boxes {
+    height: 577px;
+    border: 1px solid darkblue;
+  }
+  
+  .form-map-boxes {
+    height: 577px;
+  }
+  
+  .contact-department-boxes {
+    // min-height: 637px;
+    background-color: #000000;
+    padding-bottom: 90px;
+  }
+  .contact-department-box {
+    margin-top: 80px;
+    color: white;
+    font-family: 'Koulen', cursive;
+  }
+  .circle-contact {
+    height: 84px;
+    width: 84px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 40px auto 0;
+  }
+  
+  .contact-department-box-buy {
+    margin: 0 20px 0 auto;
+    h4{
+        color: white;
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+    p{
+        color: white;
+    }
+  }
+  .contact-department-box-technical {
+    margin: 0 20px 0 auto;
+    h4{
+        color: white;
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+    p{
+        color: white;
+        
+    }
+  }
+  .box-phones {
+    margin-top: 13px;
+  }
+  .text-underline-none-black:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  @media (max-width: 767px) {
+    .form-map-boxes {
+      height: auto;
+      text-align: center;
+      .data-map {
+          h3{
+              font-size: 33px;
+          }
+        p {
+          margin-bottom: 10px !important;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  
+  .popo{
+    color: red;
+  }

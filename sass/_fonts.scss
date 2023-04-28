@@ -1,0 +1,113 @@
+.fz-56 {
+	font-size: calc((56 / #{$rem}) * 1rem);
+	line-height: calc((84 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((56 / #{$rem}) * 1rem);
+		line-height: calc((84 / #{$rem}) * 1rem);
+	}
+}
+.fz-44 {
+	font-size: calc((44 / #{$rem}) * 1rem);
+	line-height: calc((49.28 / #{$rem}) * 1rem);
+	letter-spacing: calc((-0.66px / #{$rem}) * 1rem);
+	* {
+		font-size: calc((44 / #{$rem}) * 1rem);
+		line-height: calc((49.29 / #{$rem}) * 1rem);
+		letter-spacing: calc((-0.66px / #{$rem}) * 1rem);
+	}
+}
+
+.fz-36 {
+	font-size: 2rem;
+	* {
+		font-size: 2rem;
+	}
+}
+.fz-28 {
+	font-size: calc((28 / #{$rem}) * 1rem);
+	line-height: calc((28 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((28 / #{$rem}) * 1rem);
+		line-height: calc((28 / #{$rem}) * 1rem);
+	}
+}
+
+.fz-26 {
+	font-size: 1.55rem;
+	* {
+		font-size: 1.55rem;
+	}
+}
+.fz-24 {
+	font-size: 1.33rem;
+	* {
+		font-size: 1.33rem;
+	}
+}
+.fz-22 {
+	font-size: calc((22 / #{$rem}) * 1rem);
+	line-height: calc((26 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((22 / #{$rem}) * 1rem);
+		line-height: calc((26 / #{$rem}) * 1rem);
+	}
+}
+.fz-21 {
+	font-size: 1.22rem;
+	* {
+		font-size: 1.22rem;
+	}
+}
+
+.fz-16 {
+	font-size: calc((16 / #{$rem}) * 1rem);
+	line-height: calc((24 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((16 / #{$rem}) * 1rem);
+		line-height: calc((24 / #{$rem}) * 1rem);
+	}
+}
+.fz-14 {
+	font-size: calc((14 / #{$rem}) * 1rem);
+	line-height: calc((21 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((14 / #{$rem}) * 1rem);
+		line-height: calc((21 / #{$rem}) * 1rem);
+	}
+}
+.fz-12 {
+	font-size: calc((12 / #{$rem}) * 1rem);
+	line-height: calc((18 / #{$rem}) * 1rem);
+	* {
+		font-size: calc((12 / #{$rem}) * 1rem);
+		line-height: calc((18 / #{$rem}) * 1rem);
+	}
+}
+
+.pr-0 {
+	padding-right: 0;
+}
+
+.pl-0 {
+	padding-left: 0;
+}
+
+.f-pm {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.f-to {
+	font-family: 'Titan One', cursive;
+}
+
+.f-rwt {
+	font-family: 'Rubik Wet Paint', cursive;
+}
+
+.f-m {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.f-k {
+	font-family: 'Koulen', cursive;
+}

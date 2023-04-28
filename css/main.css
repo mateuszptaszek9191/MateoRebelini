@@ -1,0 +1,947 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Titan+One&display=swap");
+.form-box-inside {
+  margin-top: 78px;
+  margin-bottom: 146px;
+}
+
+.form-boxes {
+  background-color: #000000;
+}
+
+.contact-form .form-control-input:focus {
+  background-color: #e4e4e4 !important;
+}
+
+.form-control-input {
+  font-size: 18px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  border-bottom: none;
+  margin-bottom: 20px;
+  background: #e4e4e4 0% 0% no-repeat padding-box;
+  margin-bottom: 16px;
+}
+
+.text-md-start {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.text-md-start-form {
+  color: white;
+}
+
+.date-contact {
+  margin-bottom: 10px;
+  font-family: "Koulen", cursive;
+  color: white;
+}
+
+.data-map {
+  margin-bottom: 21px;
+}
+
+.form-contact-h {
+  margin-bottom: 30px;
+}
+
+.form-question-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Koulen", cursive;
+  color: white;
+}
+
+.form-box-inside {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 660px;
+  max-width: 100%;
+}
+
+.checkbox-l {
+  color: #808080;
+}
+
+.checkbox-d {
+  margin-bottom: 6px;
+}
+
+.form-btn-box {
+  margin-top: 17px;
+}
+
+.contact-inside {
+  width: 574px;
+  max-width: 100%;
+  margin: 0 20px 0 auto;
+}
+.contact-inside h1 {
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+.contact-inside p {
+  font-size: 18px;
+}
+
+.contact-inside-lorem {
+  width: 456px;
+  max-width: 100%;
+}
+
+.contact-map-boxes {
+  height: 577px;
+  border: 1px solid darkblue;
+}
+
+.form-map-boxes {
+  height: 577px;
+}
+
+.contact-department-boxes {
+  background-color: #000000;
+  padding-bottom: 90px;
+}
+
+.contact-department-box {
+  margin-top: 80px;
+  color: white;
+  font-family: "Koulen", cursive;
+}
+
+.circle-contact {
+  height: 84px;
+  width: 84px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 40px auto 0;
+}
+
+.contact-department-box-buy {
+  margin: 0 20px 0 auto;
+}
+.contact-department-box-buy h4 {
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.contact-department-box-buy p {
+  color: white;
+}
+
+.contact-department-box-technical {
+  margin: 0 20px 0 auto;
+}
+.contact-department-box-technical h4 {
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.contact-department-box-technical p {
+  color: white;
+}
+
+.box-phones {
+  margin-top: 13px;
+}
+
+.text-underline-none-black:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .form-map-boxes {
+    height: auto;
+    text-align: center;
+  }
+  .form-map-boxes .data-map h3 {
+    font-size: 33px;
+  }
+  .form-map-boxes .data-map p {
+    margin-bottom: 10px !important;
+    font-weight: 500;
+  }
+}
+.popo {
+  color: red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.section-padding {
+  padding: 3em 1em;
+}
+
+.section-container {
+  padding: 0 20px;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.zoom-box-aboutus {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zoom-box-aboutus img {
+  width: 60%;
+}
+
+.arts-text-abouts {
+  margin: 0 50px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+th {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.accordion-button {
+  padding: 1em;
+  font-size: 1.8rem;
+  border: 1px solid rgb(74, 11, 143);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f0f3f6;
+  color: rgb(74, 11, 143);
+}
+
+@media (max-width: 767px) {
+  .reviews.section-padding {
+    padding: 3em 0;
+  }
+  .arts-text-abouts {
+    display: none;
+  }
+}
+.underline-gray {
+  height: 2px;
+  width: 100%;
+  background-color: #a3a3a3;
+}
+
+.reviews__box {
+  position: relative;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(46, 46, 46, 0.1803921569);
+  transition: transform 0.3s;
+}
+.reviews__box:hover {
+  transform: scale(0.95);
+}
+.reviews__box-img {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.reviews img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.reviews__box-quote {
+  margin-bottom: 1em;
+  font-size: 3rem;
+  color: rgb(74, 11, 143);
+}
+
+.section-input {
+  width: 50px;
+}
+
+.card-border {
+  transition: 0.3s;
+}
+
+.card-border:hover {
+  transform: scale(1.1);
+}
+
+.galerry-show img:hover {
+  filter: grayscale(100%);
+}
+
+.fz-56 {
+  font-size: calc((56 / 16) * 1rem);
+  line-height: calc((84 / 16) * 1rem);
+}
+.fz-56 * {
+  font-size: calc((56 / 16) * 1rem);
+  line-height: calc((84 / 16) * 1rem);
+}
+
+.fz-44 {
+  font-size: calc((44 / 16) * 1rem);
+  line-height: calc((49.28 / 16) * 1rem);
+  letter-spacing: calc((-0.66px / 16) * 1rem);
+}
+.fz-44 * {
+  font-size: calc((44 / 16) * 1rem);
+  line-height: calc((49.29 / 16) * 1rem);
+  letter-spacing: calc((-0.66px / 16) * 1rem);
+}
+
+.fz-36 {
+  font-size: 2rem;
+}
+.fz-36 * {
+  font-size: 2rem;
+}
+
+.fz-28 {
+  font-size: calc((28 / 16) * 1rem);
+  line-height: calc((28 / 16) * 1rem);
+}
+.fz-28 * {
+  font-size: calc((28 / 16) * 1rem);
+  line-height: calc((28 / 16) * 1rem);
+}
+
+.fz-26 {
+  font-size: 1.55rem;
+}
+.fz-26 * {
+  font-size: 1.55rem;
+}
+
+.fz-24 {
+  font-size: 1.33rem;
+}
+.fz-24 * {
+  font-size: 1.33rem;
+}
+
+.fz-22 {
+  font-size: calc((22 / 16) * 1rem);
+  line-height: calc((26 / 16) * 1rem);
+}
+.fz-22 * {
+  font-size: calc((22 / 16) * 1rem);
+  line-height: calc((26 / 16) * 1rem);
+}
+
+.fz-21 {
+  font-size: 1.22rem;
+}
+.fz-21 * {
+  font-size: 1.22rem;
+}
+
+.fz-16 {
+  font-size: calc((16 / 16) * 1rem);
+  line-height: calc((24 / 16) * 1rem);
+}
+.fz-16 * {
+  font-size: calc((16 / 16) * 1rem);
+  line-height: calc((24 / 16) * 1rem);
+}
+
+.fz-14 {
+  font-size: calc((14 / 16) * 1rem);
+  line-height: calc((21 / 16) * 1rem);
+}
+.fz-14 * {
+  font-size: calc((14 / 16) * 1rem);
+  line-height: calc((21 / 16) * 1rem);
+}
+
+.fz-12 {
+  font-size: calc((12 / 16) * 1rem);
+  line-height: calc((18 / 16) * 1rem);
+}
+.fz-12 * {
+  font-size: calc((12 / 16) * 1rem);
+  line-height: calc((18 / 16) * 1rem);
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.f-pm {
+  font-family: "Permanent Marker", cursive;
+}
+
+.f-to {
+  font-family: "Titan One", cursive;
+}
+
+.f-rwt {
+  font-family: "Rubik Wet Paint", cursive;
+}
+
+.f-m {
+  font-family: "Montserrat", sans-serif;
+}
+
+.f-k {
+  font-family: "Koulen", cursive;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -2;
+}
+
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+
+.skate-hero {
+  background-image: url(../img/pexels-salvio-bhering-58729\ \(1\).jpg);
+  background-position: 0 76%;
+}
+
+.skate-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.skate-hero-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.box-one {
+  background-image: url(../img/Skatepark-Mar-Bella-1024x683.jpg);
+}
+
+.box-two {
+  background-image: url(../img/Najwiekszy-skatepark-w-Warszawie-rankiem.jpg);
+}
+
+.box-three {
+  background-image: url(../img/california\ skate.jpg);
+}
+
+.box-four {
+  background-image: url(../img/LES-Skatepark-New-York-City.jpg);
+}
+
+.modal-content-save {
+  height: 70vh;
+  padding: 20px;
+}
+
+.form-box-save {
+  padding: 10px 0;
+}
+
+.modal-header-save {
+  padding: 20px 55px 0;
+}
+
+.wrapper-1 {
+  overflow: auto;
+}
+
+.modal-border-img-login {
+  width: calc(100% + 40px);
+  height: 40px;
+  background-image: url("../img/SKATEBOARDss-slide-P1FG-superJumbo.jpg");
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.modal-content-sharp {
+  border-radius: unset;
+}
+
+.btn-close-modal {
+  padding: 15px;
+  padding-right: 0;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  border-bottom: 2px solid #ddd;
+}
+
+input::-moz-placeholder {
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+
+input::placeholder {
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  padding: 10px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: bold;
+  background: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  color: #333;
+  background-color: #ddd;
+}
+
+.wrapper-weathr {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: rgb(137, 134, 142);
+}
+
+.top {
+  height: 260px;
+}
+
+.bottom {
+  height: 140px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.city-name {
+  font-size: 40px;
+}
+
+.headings,
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+.headings p,
+.weather-info p {
+  width: 33.3%;
+  text-align: center;
+}
+
+.headings {
+  height: 35%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.weather-info {
+  height: 65%;
+  font-size: 26px;
+}
+
+.photo {
+  width: 140px;
+  height: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.warning {
+  margin-top: 10px;
+  font-size: 14px;
+  color: tomato;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shadow-bg {
+  background-color: rgba(197, 71, 71, 0.9);
+}
+
+.footer-top {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer-top p {
+  font-size: 12px;
+}
+
+.navbar {
+  z-index: 500;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.nav-link {
+  font-family: "Rubik Wet Paint", cursive;
+}
+
+.fa-bars {
+  padding: 10px;
+}
+
+.header-footer {
+  height: 20px;
+}
+
+.artist-photo {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.zoom-box {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zoom-box img {
+  width: 100%;
+}
+
+.tittle-image-text {
+  color: white;
+  text-align: center;
+  font-family: "Koulen", cursive;
+  font-weight: 800;
+  font-size: 55px;
+}
+
+.tittle-image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-buy:hover {
+  background-color: white;
+  color: blue;
+  border: none;
+}
+
+.ello {
+  height: 1900px;
+  width: 100%;
+  background-color: rgb(24, 27, 27);
+}
+
+.elle {
+  height: 1900px;
+  width: 100%;
+  background-color: rgb(24, 27, 27);
+}
+
+.card-border {
+  border: none;
+}
+
+.underline-text {
+  background-color: #2983cc;
+  height: 10px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.tittle-image-text-aboutus {
+  margin: 0px 200px;
+  text-align: center;
+  color: white;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 32px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.featured-text {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(43, 39, 39);
+}
+.footer .wrapper {
+  padding: 6em 2em 2em;
+}
+.footer__box {
+  font-size: 1rem;
+}
+.footer__box-desktop {
+  display: none;
+}
+.footer__boxtitle {
+  margin-bottom: 1em;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.footer__box-social {
+  padding: 2em 0 1em;
+}
+.footer__box-link {
+  color: white;
+  padding: 0 0.3em;
+  font-size: 3.6rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer__box-link:first-child {
+  padding-left: 0;
+}
+.footer__box-link:hover {
+  color: grey;
+}
+.footer__bottom-text {
+  padding: 2em;
+  text-align: center;
+}
+
+.newsletter input {
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.newsletter input::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1a1a1a !important;
+}
+
+.newsletter input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1a1a1a !important;
+}
+
+.newsletter input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #1a1a1a !important;
+}
+
+.newsletter input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #1a1a1a !important;
+}
+
+.newsletter__arrow {
+  position: absolute;
+}
+
+.newsletter__arrow--left {
+  top: 9%;
+  left: 0px;
+  max-width: 18vw;
+}
+
+.newsletter__arrow--right-big {
+  top: 10%;
+  right: 0px;
+  max-width: 52vw;
+}
+
+.newsletter__arrow--right-small {
+  top: 63%;
+  right: 10%;
+  max-width: 30vw;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .tittle-image h3 {
+    font-size: 12px;
+  }
+  .footer-code-top p {
+    font-size: 8px;
+    text-align: center;
+  }
+  .contact-department-box-buy {
+    margin: 0;
+  }
+  .contact-department-box-technical {
+    margin: 0;
+  }
+}
+@media (min-width: 375px) and (max-width: 576px) {
+  .tittle-image h3 {
+    font-size: 12px;
+  }
+  .footer-code-top p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .contact-department-box-buy {
+    margin: 0;
+  }
+  .contact-department-box-technical {
+    margin: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .tittle-image h3 {
+    font-size: 20px;
+  }
+  .footer-code-top p {
+    text-align: center;
+  }
+  .contact-department-box-buy {
+    margin: 0;
+  }
+  .contact-department-box-technical {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .tittle-image h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .tittle-image h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .tittle-image h3 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .footer__boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__box-desktop {
+    display: block;
+  }
+  .footer__box-desktop .footer__box-title {
+    font-weight: 900;
+    margin-left: 2rem;
+  }
+  .footer__box {
+    margin: 0 2em;
+    width: 25%;
+  }
+  .footer__box-title {
+    font-size: 2rem;
+  }
+  .footer__box-list {
+    list-style: none;
+  }
+  .footer__box-list-item {
+    margin-bottom: 1em;
+  }
+  .footer__box-list-item a {
+    color: white;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=main.css.map */
